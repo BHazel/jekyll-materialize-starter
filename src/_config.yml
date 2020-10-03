@@ -1,0 +1,4 @@
+title: Site Title
+markdown: kramdown
+sass:
+  sass_dir: css
