@@ -1,0 +1,63 @@
+---
+---
+
+@import "./materialize";
+
+.colour-primary-base {
+    // Primary Base Colour
+}
+
+.colour-primary-shade {
+    // Primary Colour Shade
+}
+
+.colour-primary-shade-dark {
+    // Primary Colour Dark Shade
+}
+
+.colour-secondary-base {
+    // Secondary Base Colour
+}
+
+.colour-secondary-shade {
+    // Secondary Colour Shade
+}
+
+.colour-primary {
+    @extend .colour-primary-base, .colour-primary-shade;
+}
+
+.colour-primary-dark {
+    @extend .colour-primary-base, .colour-primary-shade-dark;
+}
+
+.colour-secondary {
+    @extend .colour-secondary-base, .colour-secondary-shade;
+}
+
+.parallax-container {
+    height: auto;
+}
+
+.colour-scheme-override {
+    color: #ffffff;
+}
+
+.highlight-section {
+    padding: 5px 10px 5px 10px;
+}
+
+.standalone-img {
+    @extend .z-depth-4;
+}
+
+footer .page-footer {
+    margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333333;
+        color: #ffffff;
+    }
+}
